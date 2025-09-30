@@ -1,0 +1,211 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+}
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Smooch Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+main {
+  background-color: brown;
+}
+header {
+  background-color: rgb(155, 155, 211);
+  background-color: rgb(66, 5, 107, 0, 5);
+  height: 20%; /*no esta tomando esta medida*/
+}
+.titulo-header {
+  color: brown;
+  font-size: 6rem;
+  font-weight: lighter;
+  font-style: italic;
+  text-align: center;
+  text-decoration: line-through;
+}
+
+ul {
+  list-style: none;
+  font-size: 2rem;
+  display: flex;
+  text-align: center;
+  padding: 1rem;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 1rem;
+}
+nav ul li a {
+  color: rgb(88, 16, 136);
+  font-size: 2rem;
+}
+a {
+  text-decoration: none; /*saca el subrayado del enlace*/
+}
+/* ------------------------------------ */
+/* MENU DEBAJO DE LAS TARJETAS  --------*/
+/* ------------------------------------ */
+
+.extras {
+  display: flex;
+  padding: 3rem;
+}
+.list li a {
+  color: rgb(181, 133, 226);
+}
+
+/* ------------------------------------ */
+/* ----PAGINA CONTACTO ---------------- */
+/* ------------------------------------ */
+
+fieldset {
+  background-color: brown;
+  border-radius: 1rem;
+  width: 30rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(127, 127, 192);
+  width: 100%;
+  margin: 0;
+  padding: 3rem;
+}
+label {
+  cursor: pointer;
+  display: block;
+  font-size: large;
+  padding: 0.2rem;
+}
+input {
+  display: list-item;
+  border-radius: 0.5rem;
+}
+textarea {
+  border-radius: 0.5rem;
+}
+#motivo {
+  border-radius: 0.5rem;
+}
+.button {
+  display: flex;
+  padding-top: 1rem;
+  justify-content: space-between;
+  gap: 2rem;
+}
+button {
+  border-radius: 0.5rem;
+}
+
+/*------------------------------ */
+/* -------TARJETAS PRODUCTOS --- */
+/*-------------------------------*/
+
+h2 {
+  color: rgb(66, 5, 107);
+  font-size: 2.5rem;
+  text-align: center;
+  padding: 2rem;
+}
+
+.contenedor-productos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.cada-producto {
+  background-color: blue;
+  width: 30rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cada-producto img {
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+h3 {
+  font-size: 2rem;
+  text-align: center;
+  color: rgb(66, 5, 107);
+  justify-content: center;
+  align-items: center;
+}
+p {
+  color: rgb(188, 176, 199);
+  font-weight: bolder;
+  font-size: 2rem;
+  text-align: center;
+
+  justify-content: center;
+  align-items: center;
+}
+/* ------------------------------------ */
+/* ------FOOTER ---------.------------- */
+/* ------------------------------------ */
+footer {
+  background-color: rgb(155, 155, 211);
+  padding: 1rem;
+  margin: 0;
+  display: flex;
+}
+
+footer a {
+  color: rgb(255, 0, 191);
+  font-size: x-large;
+}
+
+footer p {
+  color: antiquewhite;
+  font-size: 2rem;
+  font-style: italic;
+}
+/* ------------------------------------ */
+/* ------MEDIA QUERIES ---------------- */
+/* ------------------------------------ */
+
+@media (max-width: 768px) {
+  .form {
+    background-color: brown;
+  }
+  fieldset {
+    background-color: rgb(188, 176, 199);
+  }
+  .form label {
+    display: contents;
+    color: antiquewhite;
+  }
+  .button {
+    flex-direction: column;
+  }
+
+  nav ul {
+    flex-direction: column;
+  }
+
+  .extras .list {
+    flex-direction: column;
+  }
+}
