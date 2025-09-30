@@ -1,6 +1,6 @@
 pre entrega tp final
 
-cosas que me faltaron o costaron resolver:
+dejo el readme para recordar cosas que me faltaron o costaron resolver:
 
 cuando achico muuuuuucho desde inspeccionar los colores de fondo se achican mas q otros objetos y estos sobresalen del fondo.
 
