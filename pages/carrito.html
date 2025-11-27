@@ -30,48 +30,29 @@
               <span id="contador">0</span></a
             >
           </li>
+          <!--//aca va a la pag de carrito.. a si misma-->
         </ul>
       </nav>
     </header>
+
     <main>
-      <form
-        class="form"
-        action="https://formspree.io/f/xjkelnlo"
-        method="post"
-        target="_blank"
-      >
-        <fieldset>
-          <label for="nombre">Nombre:</label>
-          <input type="text" id="nombre" name="nombre" />
-          <label for="edad">Edad:</label>
-          <input type="number" id="edad" name="edad" />
-          <label for="email">Correo:</label>
-          <input type="email" id="email" name="Correo" />
-          <label for="motivo">Porque quiere venir en casa pierdas:</label>
-          <select id="motivo">
-            <option value="">-- Seleccioná una opción --</option>
-            <option value="vacaciones">Vacaciones</option>
-            <option value="transito">Transito</option>
-            <option value="forever">Forever</option>
-          </select>
-          <label for="mensaje">Mensaje</label>
-          <textarea id="mensaje" name="mensaje" rows="5"></textarea>
-          <section class="button">
-            <button type="submit">Enviar</button>
-            <button type="reset">Limpiar</button>
-          </section>
-        </fieldset>
-        <input type="hidden" name="_redirect" value="./index.html" />
-      </form>
+      <section>
+        <h2>Carrito de adopción</h2>
+        <div id="contenedor-carrito">
+          <!-- //prod carrito -->
+        </div>
+      </section>
+      <div id="acciones-carrito" class="acciones-carrito">
+        <!--Botones de agregar y finalizar compra q se crean en js -->
+      </div>
     </main>
     <footer>
       <p>Derechos reservados</p>
       <p>jimemiramontes</p>
-
       <a href="https://www.instagram.com/"
         ><i class="fa-brands fa-instagram"></i
       ></a>
     </footer>
-    <script src="../js/contacto.js" type="module"></script>
+    <script type="module" src="../js/carrito.js"></script>
   </body>
 </html>

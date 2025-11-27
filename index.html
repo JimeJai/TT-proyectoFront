@@ -3,86 +3,68 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@300&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
     <title>Document</title>
   </head>
   <body>
     <header>
-        <h1 class="titulo-header">casa piedras</h1>
+      <h1 class="titulo-header">casa piedras</h1>
 
       <nav>
         <ul>
           <li><a href="./index.html">Home</a></li>
           <li><a href="./pages/contacto.html">Contactanos</a></li>
-          <li><a  href="#carrito"  class="fas fa-shopping-cart"></a></li>
-
+          <li>
+            <a href="./pages/carrito.html" class="fa-solid fa-cat">
+              <!-- class="fas fa-shopping-cart" -->
+              <span id="contador">0</span></a
+            >
+          </li>
         </ul>
       </nav>
     </header>
 
     <main>
-     <!-- aca abajo voy a poner los productos -->
- <section id="carrito">
-
-    
-  <h2>Elegi tu gatite terapeutico</h2>
-  <div class="contenedor-productos">
-  <article class="cada-producto">
-    <h3>El Primogenito</h3>
-    <img src="./imagenes/el primogenito.jpg" alt="Koda sentado en la cocina">
-    <p>Precio: 20000 por dia</p>
-
-  </article>
-   <article class="cada-producto">
-    <h3>Mosko</h3>
-    <img src="./imagenes/mosko.jpg" alt="Mosko acercamiento">
-    <p>Precio: otro level - consulte</p>
-
-  </article>
-   <article class="cada-producto">
-    <h3>Amaranta Buendia</h3>
-    <img src="./imagenes/amaranta.jpg" alt="Amaranta en anta rosa">
-    <p>Precio: 15000 por dia</p>
-
-  </article>
-   <article class="cada-producto">
-    <h3>Camus</h3>
-    <img src="./imagenes/camu.jpg" alt="Camus mirando camara">
-    <p>Precio: 15000 por dia</p>
-
-  </article>
-  </article>
-   <article class="cada-producto">
-    <h3>Boedo</h3>
-    <img src="./imagenes/boedo.jpg" alt="Boe a upa">
-    <p>Precio: 10000 por dia</p>
-
-  </article>
-  </div>
-</section>
+      <!-- aca abajo voy a poner los productos -->
+      <section id="carrito">
+        <h2>Elegi tu gatite terapeutico</h2>
+        <div id="contenedor-productos" class="contenedor-productos"></div>
+      </section>
 
       <section class="extras">
-       
-          <ul class="list">
-          
-            <li><a href="https://www.google.com/search?q=piedras+781&rlz=1C1YTUH_esAR1078AR1078&oq=piedras+781&gs_lcrp=EgZjaHJvbWUyCQgAEEUYORiABDIHCAEQABjvBTIHCAIQABjvBTIKCAMQABiABBiiBDIKCAQQABiABBiiBNIBCDI3ODdqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8" target="_blank">Nosotres-Ver mapa</a></li>
-            <li><a href="./imagenes/koda.JPG" target="_blank">Koda (ver imagen)</a></li>
+        <ul class="list">
+          <li>
+            <a
+              href="https://www.google.com/search?q=piedras+781&rlz=1C1YTUH_esAR1078AR1078&oq=piedras+781&gs_lcrp=EgZjaHJvbWUyCQgAEEUYORiABDIHCAEQABjvBTIHCAIQABjvBTIKCAMQABiABBiiBDIKCAQQABiABBiiBNIBCDI3ODdqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8"
+              target="_blank"
+              >Nosotres-Ver mapa</a
+            >
+          </li>
+          <li>
+            <a href="./imagenes/koda.JPG" target="_blank">Koda (ver imagen)</a>
+          </li>
 
-           <li> <a href="mailto:jimemiramontes@gmail.com">Enviar correo</a></li>
-          </ul>
-
-          
-        </section>  
-
+          <li><a href="mailto:jimemiramontes@gmail.com">Enviar correo</a></li>
+        </ul>
+      </section>
     </main>
     <footer>
-     <p>Derechos reservados</p>
-     <p>jimemiramontes</p>
-     <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a> 
+      <p>Derechos reservados</p>
+      <p>jimemiramontes</p>
+      <a href="https://www.instagram.com/"
+        ><i class="fa-brands fa-instagram"></i
+      ></a>
     </footer>
+    <script src="./js/index.js" type="module"></script>
   </body>
 </html>

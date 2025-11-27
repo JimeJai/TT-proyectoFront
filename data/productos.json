@@ -1,0 +1,22 @@
+[
+  {
+    "id": "1",
+    "nombre": "Koda, el primogenito",
+    "img": "imagenes/el primogenito.jpg",
+    "precio": 20000
+  },
+  {
+    "id": "2",
+    "nombre": "Mosko",
+    "img": "imagenes/mosko.jpg",
+    "precio": 50000
+  },
+  {
+    "id": "3",
+    "nombre": "Amaranta Buendia",
+    "img": "imagenes/amaranta.jpg",
+    "precio": 15000
+  },
+  { "id": "4", "nombre": "Camus", "img": "imagenes/camu.jpg", "precio": 15000 },
+  { "id": "5", "nombre": "Boedo", "img": "imagenes/boedo.jpg", "precio": 10000 }
+]

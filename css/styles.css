@@ -21,7 +21,7 @@ main {
 header {
   background-color: rgb(155, 155, 211);
   background-color: rgb(66, 5, 107, 0, 5);
-  height: 20%; /*no esta tomando esta medida*/
+  height: 20%;
 }
 .titulo-header {
   color: brown;
@@ -125,7 +125,8 @@ h2 {
   padding: 2rem;
 }
 
-.contenedor-productos {
+.contenedor-productos,
+#contenedor-carrito {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -182,6 +183,61 @@ footer p {
   font-size: 2rem;
   font-style: italic;
 }
+
+/* -------------------------------------------------------------------------- */
+/*                              👉Nuevo: BOTONES                              */
+/* -------------------------------------------------------------------------- */
+.btn {
+  background-color: brown;
+  color: #e5e6e8;
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 2rem;
+  font-weight: bold;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+}
+
+.btn:hover {
+  background-color: #1d1a20;
+  transform: rotate(2deg);
+}
+
+.btn-eliminar-carrito {
+  background-color: #1d1a20;
+  /* border: 2px solid #d21f3c; */
+}
+
+.btn-eliminar-carrito:hover {
+  background-color: brown;
+  transform: rotate(-2deg);
+}
+
+.btn-vaciar-carrito {
+  background-color: rgb(118, 118, 221);
+  color: #1d1a20;
+}
+.btn-vaciar-carrito:hover {
+  background-color: #1d1a20;
+  color: blanchedalmond;
+  transform: rotate(-180deg);
+}
+
+/* -------------------------------------------------------------------------- */
+/*                              Nuevo: Carrito                              */
+/* -------------------------------------------------------------------------- */
+.mensaje-carrito-vacio {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-top: 2rem;
+  /* background-color: blue; */
+}
+.acciones-carrito {
+  margin-top: 2rem;
+}
+
 /* ------------------------------------ */
 /* ------MEDIA QUERIES ---------------- */
 /* ------------------------------------ */
