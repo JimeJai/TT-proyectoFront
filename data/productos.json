@@ -18,5 +18,28 @@
     "precio": 15000
   },
   { "id": "4", "nombre": "Camus", "img": "imagenes/camu.jpg", "precio": 15000 },
-  { "id": "5", "nombre": "Boedo", "img": "imagenes/boedo.jpg", "precio": 10000 }
+  {
+    "id": "5",
+    "nombre": "Boedo",
+    "img": "imagenes/boedo.jpg",
+    "precio": 10000
+  },
+  {
+    "id": "6",
+    "nombre": "Batman Ramon",
+    "img": "imagenes/batman.jpg",
+    "precio": 15000
+  },
+  {
+    "id": "7",
+    "nombre": "Mecha",
+    "img": "imagenes/laMecha.jpeg",
+    "precio": 15000
+  },
+  {
+    "id": "8",
+    "nombre": "Chimu",
+    "img": "imagenes/chimu.jpeg",
+    "precio": 15000
+  }
 ]
