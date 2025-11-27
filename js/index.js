@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", () => {
         img.alt = producto.nombre;
 
         const precio = document.createElement("p");
-        precio.textContent = `$${producto.precio}`;
+        precio.textContent = `$${producto.precio} por dia`;
 
         const boton = document.createElement("button");
         //aca ella le pone una clase xq habia hecho un boton y eso.. yo no lo tengo, quiza lo puedo agregar desde aca

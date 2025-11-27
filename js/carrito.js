@@ -33,7 +33,7 @@ const renderizarCarrito = () => {
     img.alt = producto.nombre;
 
     const precio = document.createElement("p");
-    precio.textContent = `$${producto.precio}`;
+    precio.textContent = `$${producto.precio} por dia`;
 
     const btnEliminar = document.createElement("button");
     btnEliminar.classList.add("btn");
