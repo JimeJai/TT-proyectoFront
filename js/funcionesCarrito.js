@@ -6,6 +6,7 @@ import {
 import { actualizarContador, mostrarMensaje } from "./ui.js";
 
 export const agregarAlCarrito = (producto) => {
+  //aca tuve problemas y era un carrito q habia quedado en el localstorage q tuve q borrar desde applications
   //usamos la funcion que pide el carrito al localStorage
   const carrito = obtenerCarrito();
   carrito.push(producto);
@@ -19,7 +20,6 @@ export const agregarAlCarrito = (producto) => {
 };
 
 export const eliminarDelCarrito = (indice) => {
-  //belu le puso eliminarProducto
   const carrito = obtenerCarrito();
   carrito.splice(indice, 1); //1er parametro a partir de cual, 2do cuantos a partir del anterior, 3ro x que cosa debe reemplazarlo (si no hay nada entonces elimina)
   guardarCarrito(carrito);
